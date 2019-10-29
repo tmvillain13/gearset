@@ -1,0 +1,41 @@
+{
+  "orgName": "Shaw",
+  "edition": "Enterprise",
+  "features": [
+    "CPQ",
+    "Communities",
+    "StateAndCountryPicklist",
+    "ServiceCloud",
+    "Workflow",
+    "ProcessBuilder",
+    "LightningSalesConsole",
+    "LightningServiceConsole"
+  ],
+  "settings": {
+    "orgPreferenceSettings": {
+      "s1DesktopEnabled": true,
+      "networksEnabled": true,
+      "chatterEnabled": true,
+      "notesReservedPref01": true
+    },
+    "nameSettings": {
+      "enableMiddleName": true,
+      "enableNameSuffix": true
+    },
+    "quoteSettings": {
+      "enableQuote": true
+    },
+    "omniChannelSettings": {
+      "enableOmniChannel": true
+    },
+    "ideasSettings": {
+      "enableIdeas": true
+    },
+    "caseSettings": {
+      "emailToCase": true
+    },
+    "forecastingSettings": {
+      "enableForecasts": true
+    }
+  }
+}

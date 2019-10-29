@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loop_Wired_Building__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A loop wired building is a different wiring configuration than we see in most Multi-dwelling Unit (MDU) buildings. Home run buildings are wired to give each suite a dedicated line that is cannot be affected by any wiring issues in another suite where as Loop wired buildings use a single cable line that loops through multiple suites to provide them each with service. You can think of it like a string of Christmas tree lights, where each light represents a customer&#39;s suite. As with Christmas tree lights, in a loop wired building any interruption in one section of the loop can cause all the suites down the line to lose their services as well. This means that many customers can lose their services because of changes made on the line by another customer in a suite ahead of them on the loop.</description>
+    <externalId>false</externalId>
+    <label>Loop Wired Building</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

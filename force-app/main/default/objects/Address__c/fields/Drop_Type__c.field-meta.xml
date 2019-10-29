@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drop_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Drop Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Aerial Drop</fullName>
+                <default>false</default>
+                <label>Aerial Drop</label>
+            </value>
+            <value>
+                <fullName>Underground Drop</fullName>
+                <default>false</default>
+                <label>Underground Drop</label>
+            </value>
+            <value>
+                <fullName>Shared Drop</fullName>
+                <default>false</default>
+                <label>Shared Drop</label>
+            </value>
+            <value>
+                <fullName>Temporary Drop</fullName>
+                <default>false</default>
+                <label>Temporary Drop</label>
+            </value>
+            <value>
+                <fullName>Apartment Complex</fullName>
+                <default>false</default>
+                <label>Apartment Complex</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

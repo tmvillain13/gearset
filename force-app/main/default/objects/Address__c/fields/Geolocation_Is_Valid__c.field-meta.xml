@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geolocation_Is_Valid__c</fullName>
+    <description>To be used in reporting to identify addresses for potential correction of the Geo Location via separate process</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+ ISBLANK(Address_Geolocation__Latitude__s) || ISBLANK(Address_Geolocation__Longitude__s), 
+ FALSE,
+ IF(
+  ISBLANK(Geolocation_Correction__Latitude__s) || ISBLANK(Geolocation_Correction__Longitude__s), 
+  TRUE, 
+  IF(
+    Address_Geolocation__Latitude__s=Geolocation_Correction__Latitude__s  &amp;&amp; Address_Geolocation__Longitude__s=Geolocation_Correction__Longitude__s,
+    TRUE,
+    FALSE
+  )
+ )
+)</formula>
+    <inlineHelpText>To be used in reporting to identify addresses for potential correction of the Geo Location via separate process</inlineHelpText>
+    <label>Geolocation Is Valid</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

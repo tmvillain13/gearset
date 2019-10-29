@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Street_Address__c</fullName>
+    <description>Combination of various address fields to generate a standardized street address</description>
+    <externalId>false</externalId>
+    <formula>TRIM(
+IF(Suite_number__c != &#39;&#39;, Suite_number__c+&#39;-&#39;, &#39;&#39;) +
+Civic_Address__c + &#39; &#39; +
+Street_Name__c + &#39; &#39; +
+Street_Type__c +
+IF(Direction__c != &#39;&#39;, &#39; &#39; + Direction__c, &#39;&#39;) +
+IF(City__c != &#39;&#39;, &#39;, &#39; + City__c , &#39;&#39;)
+)</formula>
+    <inlineHelpText>Combination of various address fields to generate a standardized street address</inlineHelpText>
+    <label>Street Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
