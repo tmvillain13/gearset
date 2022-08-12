@@ -18,16 +18,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Address__c.CBS_Drop_Address__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Address__c.CBS_Drop_Status_Code__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Address__c.CBS_Drop_Status_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
